@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 
 import { NewsModel } from '../models/news.model';
 
-const baseUrl = 'http://localhost:8080/news';
+const baseUrl = 'https://giltree-back-end-test.herokuapp.com/news';
 
 @Injectable({
   providedIn: 'root'
